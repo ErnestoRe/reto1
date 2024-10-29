@@ -6,9 +6,9 @@ public class Reto1 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		int n1=0;
+		int n=0;
 		int contador=0;
-		
+		int n1=0;
 		System.out.println("Elige la operacion");
 		System.out.println("1.Sumar");
 		System.out.println("2.Restar");
@@ -24,13 +24,13 @@ public class Reto1 {
 			try {
 				System.out.println("Introduce el nº de la operacion que desea");
 				String s=sc.nextLine();
-				n1=Integer.parseInt(s);
+				n=Integer.parseInt(s);
 				
 				
 			}catch(Exception ex) {
 				System.out.println("Introduce un formato valido");
 			}
-		}while(true);
+		}while(n!=0);
 
 	}
 
