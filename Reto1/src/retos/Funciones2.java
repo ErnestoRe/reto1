@@ -11,8 +11,8 @@ public class Funciones2 {
 		int resta=n1-n2;
 		return resta;
 	}
-	public static boolean esPar(int n) {
-		if(n%2==0) {
+	public static boolean esPar(int n1) {
+		if(n1%2==0) {
 			
 			return true;
 		}
@@ -21,8 +21,8 @@ public class Funciones2 {
 			return false;
 		}
 	}
-	public static boolean esImpar(int n) {
-		if(n%2!=0) {
+	public static boolean esImpar(int n1) {
+		if(n1%2!=0) {
 			return true;
 		}
 		else {
