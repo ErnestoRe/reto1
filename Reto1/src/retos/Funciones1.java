@@ -10,4 +10,11 @@ public class Funciones1 {
 		int div=n1/n2;
 		return div;
 	}
+	public static boolean esPositivo(int n1) {
+		if(n1>=0) {
+			return true;
+		}else {
+			return false;
+		}
+	}
 }
