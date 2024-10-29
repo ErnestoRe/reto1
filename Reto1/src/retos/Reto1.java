@@ -83,7 +83,6 @@ public class Reto1 {
 			}
 		} while (n != 0);
 		sc.close();
-
 	}
 
 }
