@@ -17,4 +17,11 @@ public class Funciones1 {
 			return false;
 		}
 	}
+	public static boolean esNegativo(int n1) {
+		if(n1<0) {
+			return true;
+		}else {
+			return false;
+		}
+	}
 }
