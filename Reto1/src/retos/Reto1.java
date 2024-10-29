@@ -25,7 +25,13 @@ public class Reto1 {
 				System.out.println("Introduce el nº de la operacion que desea");
 				String s=sc.nextLine();
 				n=Integer.parseInt(s);
-				
+				if(n==1) {
+					System.out.println("Introduce un nº");
+					for(int i=0; i<=2; i++) {
+						String s=sc.nextLine();
+						n1=Integer.parseInt(s);
+					}
+				}
 				
 			}catch(Exception ex) {
 				System.out.println("Introduce un formato valido");
