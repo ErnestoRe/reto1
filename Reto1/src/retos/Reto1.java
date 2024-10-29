@@ -6,7 +6,7 @@ public class Reto1 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		int n = 0;
+		int n = 1;
 		int n1 = 0;
 		int n2 = 0;
 		System.out.println("Elige la operacion");
@@ -25,6 +25,10 @@ public class Reto1 {
 				System.out.println("Introduce el nº de la operacion que desea");
 				String s = sc.nextLine();
 				n = Integer.parseInt(s);
+				if(n==0) {
+					System.out.println("Termine");
+					break;
+				}
 				do {
 					try {
 						System.out.println("Introduce un nº");
@@ -49,13 +53,30 @@ public class Reto1 {
 				} else if (n == 4) {
 					System.out.println(Funciones1.division(n1, n2));
 				} else if (n == 5) {
-					System.out.println(Funciones2.esPar(n1));
+					if(Funciones2.esPar(n1)) {
+						System.out.println(n1+ " es par");
+					}else {
+						System.out.println("No es par");
+					}
+					
 				} else if (n == 6) {
-					System.out.println(Funciones2.esImpar(n1));
+					if(Funciones2.esImpar(n1)) {
+						System.out.println(n1+ " es impar");
+					}else {
+						System.out.println("No es impar");
+					}
 				} else if (n == 7) {
-					System.out.println(Funciones1.esPositivo(n1));
+					if(Funciones1.esPositivo(n1)) {
+						System.out.println(n1+" es positivo");
+					}else {
+						System.out.println("No es positivo");
+					}
 				} else if (n == 8) {
-					System.out.println(Funciones1.esNegativo(n1));
+					if(Funciones1.esNegativo(n1)) {
+						System.out.println(n1+" es negativo");
+					}else {
+						System.out.println("No es negativo");
+					}
 				}
 
 			} catch (Exception ex) {
