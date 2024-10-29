@@ -7,8 +7,12 @@ public class Funciones1 {
 		return mult;
 	}
 	public static int division(int n1, int n2) {
-		int div=n1/n2;
-		return div;
+		if(n2==0 && n1==0) {
+			return 0;
+		}else {
+			int div=n1/n2;
+			return div;
+		}
 	}
 	public static boolean esPositivo(int n1) {
 		if(n1>=0) {
