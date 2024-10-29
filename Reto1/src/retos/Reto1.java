@@ -78,7 +78,6 @@ public class Reto1 {
 						System.out.println("No es negativo");
 					}
 				}
-
 			} catch (Exception ex) {
 				System.out.println("Introduce un formato valido");
 			}
