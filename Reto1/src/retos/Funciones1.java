@@ -6,4 +6,8 @@ public class Funciones1 {
 		int mult=n1*n2;
 		return mult;
 	}
+	public static int division(int n1, int n2) {
+		int div=n1/n2;
+		return div;
+	}
 }
